@@ -1,0 +1,63 @@
+.join-room{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to right, rgb(0,0,255,0.9), rgb(128,0,128,0.9));
+}
+.join{
+    border: 1px solid black;
+    width: 70%;
+    height: 250px;
+    padding: 0px 30px;
+    background-color: white;
+    box-shadow: -8px 10px rgb(0,0,0,0.1);
+    border: 1px solid rgb(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.logout{
+    position: absolute;
+    top: 5%;
+    right:5%;
+}
+.join h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 600;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.join input{
+    margin-bottom: 40px;
+    height: 45px;
+    padding: 2px 5px;
+    border: none;
+    border-bottom: 2px solid rgb(0,0,0,0.6);
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    outline: none;
+}
+.join button{
+    width: 70%;
+    height:40px ;
+    margin-left: 95px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(255,255,255,0.5);
+    background-color: #0343da;
+    color: white;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+.join input:focus{
+    border: none;
+    border-bottom:2px solid blue;
+    outline: none;
+    color: blue;
+}

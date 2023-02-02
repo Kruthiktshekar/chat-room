@@ -1,0 +1,22 @@
+.room{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to right, rgb(0,0,255,0.9), rgb(128,0,128,0.9));
+}
+.room button{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 150px;
+    padding: 10px;
+    margin: 0px 30px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.room button:hover{
+    color:#0343da ;
+}
